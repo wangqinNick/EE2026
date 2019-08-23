@@ -1,0 +1,28 @@
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: S:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 6af655a9e52a4a9e907bb2c241b7945e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot VGA_DISPLAY_behav xil_defaultlib.VGA_DISPLAY xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_signed
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package ieee.math_real
+Compiling architecture mmcme2_adv_v of entity unisim.MMCME2_ADV [\MMCME2_ADV(clkfbout_mult_f=10.1...]
+Compiling architecture bufg_v of entity unisim.BUFG [bufg_default]
+Compiling architecture xilinx of entity xil_defaultlib.CLK_108M [clk_108m_default]
+Compiling architecture behavioral of entity xil_defaultlib.VGA_CONTROL [vga_control_default]
+Compiling module xil_defaultlib.VGA_DISPLAY
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot VGA_DISPLAY_behav

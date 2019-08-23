@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/34765/Downloads/Compressed/Voice_Scope_Project_Template.xpr/Voice_Scope_Project_Template/Voice_Scope_Project_Template.srcs/sources_1/imports/new/CLK_108M.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CLK_108M
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/34765/Downloads/Compressed/Voice_Scope_Project_Template.xpr/Voice_Scope_Project_Template/Voice_Scope_Project_Template.srcs/sources_1/imports/new/VGA_CONTROL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity VGA_CONTROL

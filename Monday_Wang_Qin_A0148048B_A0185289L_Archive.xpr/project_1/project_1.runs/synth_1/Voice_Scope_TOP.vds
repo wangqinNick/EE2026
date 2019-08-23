@@ -1,0 +1,1751 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Nov  3 23:06:09 2018
+# Process ID: 5076
+# Current directory: C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log Voice_Scope_TOP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Voice_Scope_TOP.tcl
+# Log file: C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.runs/synth_1/Voice_Scope_TOP.vds
+# Journal file: C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Voice_Scope_TOP.tcl -notrace
+Command: synth_design -top Voice_Scope_TOP -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 17860 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 360.492 ; gain = 102.340
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Voice_Scope_TOP' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Voice_Scope_TOP.v:10]
+INFO: [Synth 8-6157] synthesizing module 'clk_divider' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/clk_divider.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clk_cal_m' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/clk_cal_m.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clk_cal_m' (1#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/clk_cal_m.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clk_div' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/clk_div.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'clk_div' (2#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/clk_div.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'clk_divider' (3#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/clk_divider.v:23]
+INFO: [Synth 8-6157] synthesizing module 'VOICE_CAPTURER' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/VOICE_CAPTURER.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'VOICE_CAPTURER' (4#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/VOICE_CAPTURER.v:20]
+INFO: [Synth 8-6157] synthesizing module 'TestWave_Gen' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/TestWave_Gen.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'TestWave_Gen' (5#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/TestWave_Gen.v:4]
+INFO: [Synth 8-6157] synthesizing module 'volume_indicator' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/vol_f.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/vol_f.v:135]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/vol_f.v:143]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/vol_f.v:151]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/vol_f.v:159]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/vol_f.v:167]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/vol_f.v:175]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/vol_f.v:183]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/vol_f.v:191]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/vol_f.v:199]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/vol_f.v:207]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/vol_f.v:215]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/vol_f.v:223]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/vol_f.v:231]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/vol_f.v:239]
+INFO: [Synth 8-6155] done synthesizing module 'volume_indicator' (6#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/vol_f.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'clk_20k' does not match port width (12) of module 'volume_indicator' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Voice_Scope_TOP.v:88]
+WARNING: [Synth 8-689] width (1) of port connection 'clk_10Hz' does not match port width (12) of module 'volume_indicator' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Voice_Scope_TOP.v:88]
+WARNING: [Synth 8-689] width (1) of port connection 'clk_762Hz' does not match port width (12) of module 'volume_indicator' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Voice_Scope_TOP.v:88]
+WARNING: [Synth 8-689] width (1) of port connection 'sw' does not match port width (12) of module 'volume_indicator' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Voice_Scope_TOP.v:88]
+INFO: [Synth 8-6157] synthesizing module 'draw_character' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_character.v:23]
+	Parameter START_HORZ_COORD bound to: 960 - type: integer 
+	Parameter START_VERT_COORD bound to: 256 - type: integer 
+	Parameter START_HORZ_COORD1 bound to: 1000 - type: integer 
+	Parameter START_VERT_COORD1 bound to: 256 - type: integer 
+	Parameter START_HORZ_COORD2 bound to: 1040 - type: integer 
+	Parameter START_VERT_COORD2 bound to: 256 - type: integer 
+	Parameter START_HORZ_COORD3 bound to: 1080 - type: integer 
+	Parameter START_VERT_COORD3 bound to: 256 - type: integer 
+	Parameter LENGTH bound to: 20 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'draw_character' (7#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_character.v:23]
+INFO: [Synth 8-6157] synthesizing module 'background_select' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/background_select.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/background_select.v:44]
+INFO: [Synth 8-6155] done synthesizing module 'background_select' (8#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/background_select.v:23]
+INFO: [Synth 8-6157] synthesizing module 'wave_color_select' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/wave_color_select.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/wave_color_select.v:44]
+INFO: [Synth 8-6155] done synthesizing module 'wave_color_select' (9#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/wave_color_select.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Draw_Waveform' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:6]
+WARNING: [Synth 8-6090] variable 'ave11' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:195]
+WARNING: [Synth 8-6090] variable 'ave12' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:204]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:265]
+WARNING: [Synth 8-6014] Unused sequential element sum1_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:73]
+WARNING: [Synth 8-6014] Unused sequential element ave1_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:73]
+WARNING: [Synth 8-6014] Unused sequential element sum2_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:74]
+WARNING: [Synth 8-6014] Unused sequential element ave2_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:74]
+WARNING: [Synth 8-6014] Unused sequential element sum3_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:75]
+WARNING: [Synth 8-6014] Unused sequential element ave3_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:75]
+WARNING: [Synth 8-6014] Unused sequential element sum4_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:76]
+WARNING: [Synth 8-6014] Unused sequential element ave4_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:76]
+WARNING: [Synth 8-6014] Unused sequential element sum5_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:77]
+WARNING: [Synth 8-6014] Unused sequential element ave5_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:77]
+WARNING: [Synth 8-6014] Unused sequential element sum6_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:78]
+WARNING: [Synth 8-6014] Unused sequential element ave6_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:78]
+WARNING: [Synth 8-6014] Unused sequential element sum7_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:79]
+WARNING: [Synth 8-6014] Unused sequential element ave7_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:79]
+WARNING: [Synth 8-6014] Unused sequential element sum8_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:80]
+WARNING: [Synth 8-6014] Unused sequential element ave8_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:80]
+WARNING: [Synth 8-6014] Unused sequential element sum9_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:81]
+WARNING: [Synth 8-6014] Unused sequential element ave9_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:81]
+WARNING: [Synth 8-6014] Unused sequential element sum10_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:82]
+WARNING: [Synth 8-6014] Unused sequential element ave10_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:82]
+WARNING: [Synth 8-6014] Unused sequential element sum11_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:83]
+WARNING: [Synth 8-6014] Unused sequential element ave11_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:83]
+WARNING: [Synth 8-6014] Unused sequential element sum12_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:84]
+WARNING: [Synth 8-6014] Unused sequential element ave12_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:84]
+WARNING: [Synth 8-6014] Unused sequential element sum13_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:85]
+WARNING: [Synth 8-6014] Unused sequential element ave13_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:85]
+WARNING: [Synth 8-6014] Unused sequential element sum14_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:86]
+WARNING: [Synth 8-6014] Unused sequential element ave14_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:86]
+WARNING: [Synth 8-6014] Unused sequential element sum15_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:87]
+WARNING: [Synth 8-6014] Unused sequential element ave15_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:87]
+WARNING: [Synth 8-6014] Unused sequential element sum16_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:88]
+WARNING: [Synth 8-6014] Unused sequential element ave16_reg was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:88]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1278] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1277] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1276] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1275] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1274] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1273] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1272] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1271] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1270] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1269] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1268] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1267] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1266] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1265] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1264] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1263] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1262] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1261] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1260] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1259] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1258] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1257] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1256] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1255] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1254] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1253] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1252] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1251] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1250] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1249] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1248] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1247] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1246] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1245] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1244] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1243] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1242] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1241] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1240] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1239] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1238] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1237] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1236] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1235] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1234] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1233] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1232] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1231] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1230] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1229] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1228] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1227] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1226] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1225] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1224] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1223] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1222] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1221] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1220] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1219] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1218] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1217] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1216] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1215] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1214] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1213] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1212] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+WARNING: [Synth 8-6014] Unused sequential element Sample_Memory_reg[1211] was removed.  [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:95]
+INFO: [Common 17-14] Message 'Synth 8-6014' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6155] done synthesizing module 'Draw_Waveform' (10#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Draw_Waveform.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Draw_Waveform_2' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_2.v:23]
+WARNING: [Synth 8-151] case item 32'b00000000000000000000000000001101 is unreachable [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_2.v:91]
+WARNING: [Synth 8-151] case item 32'b00000000000000000000000000001101 is unreachable [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_2.v:91]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_2.v:91]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_2.v:187]
+INFO: [Synth 8-6155] done synthesizing module 'Draw_Waveform_2' (11#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_2.v:23]
+WARNING: [Synth 8-350] instance 'draw_wave_2' of module 'Draw_Waveform_2' requires 20 connections, but only 18 given [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Voice_Scope_TOP.v:123]
+INFO: [Synth 8-6157] synthesizing module 'Draw_Waveform_3' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_3.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_3.v:52]
+WARNING: [Synth 8-567] referenced signal 'x' should be on the sensitivity list [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_3.v:49]
+INFO: [Synth 8-6155] done synthesizing module 'Draw_Waveform_3' (12#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_3.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Draw_Waveform_4' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_4.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Draw_Waveform_4' (13#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_4.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Draw_Waveform_A' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_A.v:23]
+WARNING: [Synth 8-6090] variable 'ave11' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_A.v:208]
+WARNING: [Synth 8-6090] variable 'ave12' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_A.v:217]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_A.v:278]
+INFO: [Synth 8-6155] done synthesizing module 'Draw_Waveform_A' (14#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_A.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Draw_Waveform_E' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_E.v:23]
+WARNING: [Synth 8-151] case item 32'b00000000000000000000000000001101 is unreachable [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_E.v:91]
+WARNING: [Synth 8-151] case item 32'b00000000000000000000000000001101 is unreachable [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_E.v:91]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_E.v:91]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_E.v:187]
+INFO: [Synth 8-6155] done synthesizing module 'Draw_Waveform_E' (15#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_E.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Draw_Waveform_C' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_C.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_C.v:55]
+WARNING: [Synth 8-567] referenced signal 'x' should be on the sensitivity list [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_C.v:52]
+INFO: [Synth 8-6155] done synthesizing module 'Draw_Waveform_C' (16#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_C.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Draw_Waveform_D' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_D.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Draw_Waveform_D' (17#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_D.v:23]
+INFO: [Synth 8-6157] synthesizing module 'draw_pic' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_pic.v:4]
+	Parameter SCREEN_WIDTH bound to: 640 - type: integer 
+	Parameter SCREEN_HEIGHT bound to: 360 - type: integer 
+	Parameter VRAM_DEPTH bound to: 230400 - type: integer 
+	Parameter VRAM_A_WIDTH bound to: 18 - type: integer 
+	Parameter VRAM_D_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'nus_palette.mem' is read successfully [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_pic.v:48]
+INFO: [Synth 8-638] synthesizing module 'CLK_108M' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/CLK_108M.vhd:83]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 10.125000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 9.375000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT4_CASCADE bound to: 0 - type: bool 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.000000 - type: float 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: 0 - type: bool 
+INFO: [Synth 8-113] binding component instance 'mmcm_adv_inst' to cell 'MMCME2_ADV' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/CLK_108M.vhd:125]
+INFO: [Synth 8-113] binding component instance 'clkf_buf' to cell 'BUFG' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/CLK_108M.vhd:187]
+INFO: [Synth 8-113] binding component instance 'clkout1_buf' to cell 'BUFG' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/CLK_108M.vhd:194]
+INFO: [Synth 8-256] done synthesizing module 'CLK_108M' (18#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/CLK_108M.vhd:83]
+INFO: [Synth 8-6157] synthesizing module 'sram' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/sram.v:6]
+	Parameter ADDR_WIDTH bound to: 18 - type: integer 
+	Parameter DATA_WIDTH bound to: 6 - type: integer 
+	Parameter DEPTH bound to: 230400 - type: integer 
+	Parameter MEMFILE bound to: nus.mem - type: string 
+INFO: [Synth 8-3876] $readmem data file 'nus.mem' is read successfully [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/sram.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'sram' (19#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/sram.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'draw_pic' (20#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_pic.v:4]
+INFO: [Synth 8-6157] synthesizing module 'draw_freeze_waveform' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'draw_freeze_waveform' (21#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:3]
+INFO: [Synth 8-6157] synthesizing module 'grid_select' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/grid_select.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/grid_select.v:42]
+INFO: [Synth 8-6155] done synthesizing module 'grid_select' (22#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/grid_select.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Draw_Background' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_grid.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Draw_Background' (23#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_grid.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Draw_Background1' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_grid1.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_grid1.v:74]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_grid1.v:136]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_grid1.v:148]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_grid1.v:160]
+INFO: [Synth 8-6155] done synthesizing module 'Draw_Background1' (24#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_grid1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Draw_Grid_Select' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_grid_select.v:23]
+INFO: [Synth 8-6157] synthesizing module 'fast_sp_module' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/fast_sp_module.v:23]
+INFO: [Synth 8-6157] synthesizing module 'dff_module' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/dff_module.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'dff_module' (25#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/dff_module.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'fast_sp_module' (26#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/fast_sp_module.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Draw_Grid_Select' (27#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_grid_select.v:23]
+INFO: [Synth 8-6157] synthesizing module 'VGA_DISPLAY' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/VGA_DISPLAY.v:17]
+WARNING: [Synth 8-6090] variable 'counter' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/VGA_DISPLAY.v:115]
+WARNING: [Synth 8-6090] variable 'counter' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/VGA_DISPLAY.v:120]
+INFO: [Synth 8-638] synthesizing module 'VGA_CONTROL' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/VGA_CONTROL.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'VGA_CONTROL' (28#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/VGA_CONTROL.vhd:61]
+INFO: [Synth 8-6155] done synthesizing module 'VGA_DISPLAY' (29#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/VGA_DISPLAY.v:17]
+INFO: [Synth 8-6155] done synthesizing module 'Voice_Scope_TOP' (30#1) [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/Voice_Scope_TOP.v:10]
+WARNING: [Synth 8-3331] design VGA_DISPLAY has unconnected port sw4
+WARNING: [Synth 8-3331] design VGA_DISPLAY has unconnected port sw8
+WARNING: [Synth 8-3331] design VGA_DISPLAY has unconnected port VGA_GREEN_WAVEFORM_4[3]
+WARNING: [Synth 8-3331] design VGA_DISPLAY has unconnected port VGA_GREEN_WAVEFORM_4[2]
+WARNING: [Synth 8-3331] design VGA_DISPLAY has unconnected port VGA_GREEN_WAVEFORM_4[1]
+WARNING: [Synth 8-3331] design VGA_DISPLAY has unconnected port VGA_GREEN_WAVEFORM_4[0]
+WARNING: [Synth 8-3331] design VGA_DISPLAY has unconnected port VGA_BLUE_WAVEFORM_4[3]
+WARNING: [Synth 8-3331] design VGA_DISPLAY has unconnected port VGA_BLUE_WAVEFORM_4[2]
+WARNING: [Synth 8-3331] design VGA_DISPLAY has unconnected port VGA_BLUE_WAVEFORM_4[1]
+WARNING: [Synth 8-3331] design VGA_DISPLAY has unconnected port VGA_BLUE_WAVEFORM_4[0]
+WARNING: [Synth 8-3331] design Draw_Background has unconnected port sw15
+WARNING: [Synth 8-3331] design Draw_Background has unconnected port sw14
+WARNING: [Synth 8-3331] design Draw_Background has unconnected port sw13
+WARNING: [Synth 8-3331] design Draw_Background has unconnected port sw12
+WARNING: [Synth 8-3331] design Draw_Background has unconnected port sw11
+WARNING: [Synth 8-3331] design Draw_Background has unconnected port sw10
+WARNING: [Synth 8-3331] design draw_freeze_waveform has unconnected port clk
+WARNING: [Synth 8-3331] design draw_freeze_waveform has unconnected port br[3]
+WARNING: [Synth 8-3331] design draw_freeze_waveform has unconnected port br[2]
+WARNING: [Synth 8-3331] design draw_freeze_waveform has unconnected port br[1]
+WARNING: [Synth 8-3331] design draw_freeze_waveform has unconnected port br[0]
+WARNING: [Synth 8-3331] design draw_freeze_waveform has unconnected port bg[3]
+WARNING: [Synth 8-3331] design draw_freeze_waveform has unconnected port bg[2]
+WARNING: [Synth 8-3331] design draw_freeze_waveform has unconnected port bg[1]
+WARNING: [Synth 8-3331] design draw_freeze_waveform has unconnected port bg[0]
+WARNING: [Synth 8-3331] design draw_freeze_waveform has unconnected port bb[3]
+WARNING: [Synth 8-3331] design draw_freeze_waveform has unconnected port bb[2]
+WARNING: [Synth 8-3331] design draw_freeze_waveform has unconnected port bb[1]
+WARNING: [Synth 8-3331] design draw_freeze_waveform has unconnected port bb[0]
+WARNING: [Synth 8-3331] design draw_pic has unconnected port clk_sample
+WARNING: [Synth 8-3331] design Draw_Waveform_D has unconnected port clk_640Hz
+WARNING: [Synth 8-3331] design Draw_Waveform_D has unconnected port sw
+WARNING: [Synth 8-3331] design Draw_Waveform_C has unconnected port clk_sample
+WARNING: [Synth 8-3331] design Draw_Waveform_C has unconnected port clk_8Hz
+WARNING: [Synth 8-3331] design Draw_Waveform_C has unconnected port wave_sample[11]
+WARNING: [Synth 8-3331] design Draw_Waveform_C has unconnected port wave_sample[10]
+WARNING: [Synth 8-3331] design Draw_Waveform_C has unconnected port wave_sample[9]
+WARNING: [Synth 8-3331] design Draw_Waveform_C has unconnected port wave_sample[8]
+WARNING: [Synth 8-3331] design Draw_Waveform_C has unconnected port wave_sample[7]
+WARNING: [Synth 8-3331] design Draw_Waveform_C has unconnected port wave_sample[6]
+WARNING: [Synth 8-3331] design Draw_Waveform_C has unconnected port wave_sample[5]
+WARNING: [Synth 8-3331] design Draw_Waveform_C has unconnected port wave_sample[4]
+WARNING: [Synth 8-3331] design Draw_Waveform_C has unconnected port wave_sample[3]
+WARNING: [Synth 8-3331] design Draw_Waveform_C has unconnected port wave_sample[2]
+WARNING: [Synth 8-3331] design Draw_Waveform_E has unconnected port clk_sample
+WARNING: [Synth 8-3331] design Draw_Waveform_E has unconnected port clk_3Hz
+WARNING: [Synth 8-3331] design Draw_Waveform_E has unconnected port clk_2Hz
+WARNING: [Synth 8-3331] design Draw_Waveform_E has unconnected port wave_sample[11]
+WARNING: [Synth 8-3331] design Draw_Waveform_E has unconnected port wave_sample[10]
+WARNING: [Synth 8-3331] design Draw_Waveform_E has unconnected port wave_sample[9]
+WARNING: [Synth 8-3331] design Draw_Waveform_E has unconnected port wave_sample[8]
+WARNING: [Synth 8-3331] design Draw_Waveform_E has unconnected port wave_sample[7]
+WARNING: [Synth 8-3331] design Draw_Waveform_E has unconnected port wave_sample[6]
+WARNING: [Synth 8-3331] design Draw_Waveform_E has unconnected port wave_sample[5]
+WARNING: [Synth 8-3331] design Draw_Waveform_E has unconnected port wave_sample[4]
+WARNING: [Synth 8-3331] design Draw_Waveform_E has unconnected port wave_sample[3]
+WARNING: [Synth 8-3331] design Draw_Waveform_E has unconnected port wave_sample[2]
+WARNING: [Synth 8-3331] design Draw_Waveform_A has unconnected port sw4
+WARNING: [Synth 8-3331] design Draw_Waveform_4 has unconnected port clk_128Hz
+WARNING: [Synth 8-3331] design Draw_Waveform_4 has unconnected port sw
+WARNING: [Synth 8-3331] design Draw_Waveform_3 has unconnected port clk_sample
+WARNING: [Synth 8-3331] design Draw_Waveform_3 has unconnected port clk_8Hz
+WARNING: [Synth 8-3331] design Draw_Waveform_3 has unconnected port wave_sample[11]
+WARNING: [Synth 8-3331] design Draw_Waveform_3 has unconnected port wave_sample[10]
+WARNING: [Synth 8-3331] design Draw_Waveform_3 has unconnected port wave_sample[9]
+WARNING: [Synth 8-3331] design Draw_Waveform_3 has unconnected port wave_sample[8]
+WARNING: [Synth 8-3331] design Draw_Waveform_3 has unconnected port wave_sample[7]
+WARNING: [Synth 8-3331] design Draw_Waveform_3 has unconnected port wave_sample[6]
+WARNING: [Synth 8-3331] design Draw_Waveform_3 has unconnected port wave_sample[5]
+WARNING: [Synth 8-3331] design Draw_Waveform_3 has unconnected port wave_sample[4]
+WARNING: [Synth 8-3331] design Draw_Waveform_3 has unconnected port wave_sample[3]
+WARNING: [Synth 8-3331] design Draw_Waveform_3 has unconnected port wave_sample[2]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port clk_30Hz
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port max_in[11]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port max_in[10]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port max_in[9]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port max_in[8]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port max_in[7]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port max_in[6]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port max_in[5]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port max_in[4]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port max_in[3]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port max_in[2]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port max_in[1]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port max_in[0]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port br[3]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port br[2]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port br[1]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port br[0]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port bg[3]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port bg[2]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port bg[1]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port bg[0]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port bb[3]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port bb[2]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port bb[1]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port bb[0]
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port clk_sample
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port clk_3Hz
+WARNING: [Synth 8-3331] design Draw_Waveform_2 has unconnected port sw8
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 619.590 ; gain = 361.438
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 619.590 ; gain = 361.438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 619.590 ; gain = 361.438
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/constrs_1/imports/new/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/constrs_1/imports/new/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/constrs_1/imports/new/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Voice_Scope_TOP_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Voice_Scope_TOP_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 941.496 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 941.496 ; gain = 683.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 941.496 ; gain = 683.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 941.496 ; gain = 683.344
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "clk0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "an" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "i" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "an" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "i" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "Br" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Br" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[1279]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[1200]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[1120]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[1040]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[960]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[880]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[800]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[720]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[640]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[560]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[480]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[400]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[320]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[240]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[160]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[80]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "R" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "fx" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fx" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "VGA_Green_waveform" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "VGA_Red_waveform" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "VGA_Green_waveform" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[1279]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[1200]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[1120]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[1040]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[960]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[880]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[800]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[720]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[640]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[560]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[480]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[400]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[320]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[240]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[160]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[80]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "R" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[1279]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[1200]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[1120]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[1040]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[960]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[880]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[800]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[720]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[640]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[560]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[480]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[400]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[320]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[240]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[160]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Sample_Memory_reg[80]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "R" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "fx" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fx" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "VGA_Red_1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "VGA_Green_1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "SM_reg[1279]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1278]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1277]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1276]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1275]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1274]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1273]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1272]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1271]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1270]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1269]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1268]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1267]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1266]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1265]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1264]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1263]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1262]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1261]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1260]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1259]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1258]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1257]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1256]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1255]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1254]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1253]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1252]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1251]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1250]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1249]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1248]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1247]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1246]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1245]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1244]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1243]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1242]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1241]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1240]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1239]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1238]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1237]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1236]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1235]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SM_reg[1234]" won't be mapped to RAM because it is too sparse
+INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5544] ROM "Rback" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "counter" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "counter" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "counter" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "counter" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "counter" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "counter" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "counter" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "counter" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'click_reg' in module 'VGA_DISPLAY'
+INFO: [Synth 8-5544] ROM "click" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'times_reg' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_3.v:389]
+WARNING: [Synth 8-327] inferring latch for variable 'fx_reg' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_3.v:53]
+WARNING: [Synth 8-327] inferring latch for variable 'times_reg' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_C.v:392]
+WARNING: [Synth 8-327] inferring latch for variable 'fx_reg' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_C.v:56]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                                0 |                             0000
+*
+                 iSTATE0 |                                1 |                             0001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'click_reg' using encoding 'sequential' in module 'VGA_DISPLAY'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:40 ; elapsed = 00:00:46 . Memory (MB): peak = 941.496 ; gain = 683.344
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------------------+------------+----------+
+|      |RTL Partition             |Replication |Instances |
++------+--------------------------+------------+----------+
+|1     |clk_divider               |          15|      3942|
+|2     |Draw_Waveform__GC0        |           1|      7470|
+|3     |Draw_Waveform_A__GC0      |           1|      9593|
+|4     |draw_freeze_waveform__GB0 |           1|     19988|
+|5     |case__236__GD             |           1|     15348|
+|6     |draw_freeze_waveform__GB2 |           1|      8729|
+|7     |draw_freeze_waveform__GB3 |           1|     17503|
+|8     |Draw_Background__GC0      |           1|       189|
+|9     |Draw_Background1__GC0     |           1|       557|
+|10    |Voice_Scope_TOP__GC0      |           1|     18307|
++------+--------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 65    
+	   2 Input     13 Bit       Adders := 8     
+	   2 Input     11 Bit       Adders := 39    
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 4     
+	   2 Input      4 Bit       Adders := 3     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               18 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	               14 Bit    Registers := 1     
+	               12 Bit    Registers := 4     
+	               11 Bit    Registers := 6     
+	               10 Bit    Registers := 1313  
+	                9 Bit    Registers := 4     
+	                8 Bit    Registers := 3     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 33    
+	                1 Bit    Registers := 43    
++---Multipliers : 
+	                32x32  Multipliers := 4     
+	                11x32  Multipliers := 2     
++---RAMs : 
+	            1350K Bit         RAMs := 1     
+	              15K Bit         RAMs := 4     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	 321 Input     32 Bit        Muxes := 2     
+	  14 Input     14 Bit        Muxes := 1     
+	  15 Input     14 Bit        Muxes := 1     
+	1280 Input     12 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input     11 Bit        Muxes := 14    
+	   2 Input     10 Bit        Muxes := 1     
+	  15 Input      8 Bit        Muxes := 2     
+	  14 Input      8 Bit        Muxes := 1     
+	  13 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 2     
+	   6 Input      6 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 2     
+	  20 Input      5 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 168   
+	   4 Input      4 Bit        Muxes := 10    
+	   8 Input      4 Bit        Muxes := 3     
+	  13 Input      4 Bit        Muxes := 4     
+	   6 Input      4 Bit        Muxes := 1     
+	  18 Input      4 Bit        Muxes := 3     
+	   3 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 8     
+	   4 Input      3 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1379  
+	   4 Input      1 Bit        Muxes := 6     
+	   8 Input      1 Bit        Muxes := 1     
+	  15 Input      1 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 2     
+	  20 Input      1 Bit        Muxes := 3     
+	 321 Input      1 Bit        Muxes := 2     
+	  18 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Voice_Scope_TOP 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 5     
+	   2 Input     10 Bit        Muxes := 1     
+Module clk_cal_m 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module clk_div 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module Draw_Waveform 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 16    
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 17    
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 16    
+	                4 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 9     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 33    
+	   4 Input      1 Bit        Muxes := 1     
+Module Draw_Waveform_A 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 16    
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 17    
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 16    
+	                4 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 7     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 33    
+	   4 Input      1 Bit        Muxes := 1     
+Module draw_freeze_waveform 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     13 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 2     
++---Registers : 
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 1279  
++---RAMs : 
+	              15K Bit         RAMs := 2     
++---Muxes : 
+	1280 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 2     
+	   4 Input      5 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1280  
+Module Draw_Background 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 3     
+Module Draw_Background1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 7     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 8     
+	   4 Input      4 Bit        Muxes := 1     
+	   8 Input      4 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 5     
+	   4 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 1     
+Module VOICE_CAPTURER 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module TestWave_Gen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+Module volume_indicator 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               14 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	  14 Input     14 Bit        Muxes := 1     
+	  15 Input     14 Bit        Muxes := 1     
+	  15 Input      8 Bit        Muxes := 2     
+	  14 Input      8 Bit        Muxes := 1     
+	  13 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   6 Input      6 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	  15 Input      1 Bit        Muxes := 1     
+Module background_select 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 3     
+	  13 Input      4 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 1     
+Module wave_color_select 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	  13 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 1     
+Module Draw_Waveform_2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Multipliers : 
+	                32x32  Multipliers := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 3     
+Module Draw_Waveform_3 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Multipliers : 
+	                11x32  Multipliers := 1     
++---Muxes : 
+	 321 Input     32 Bit        Muxes := 1     
+	  20 Input      5 Bit        Muxes := 1     
+	  20 Input      1 Bit        Muxes := 1     
+	 321 Input      1 Bit        Muxes := 1     
+Module Draw_Waveform_4 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 6     
+	   2 Input     13 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
++---RAMs : 
+	              15K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 6     
+	   6 Input      4 Bit        Muxes := 1     
+Module Draw_Waveform_E 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
++---Multipliers : 
+	                32x32  Multipliers := 2     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 2     
+	  20 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 60    
+	  20 Input      1 Bit        Muxes := 1     
+Module Draw_Waveform_C 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Multipliers : 
+	                11x32  Multipliers := 1     
++---Muxes : 
+	 321 Input     32 Bit        Muxes := 1     
+	  20 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	  20 Input      1 Bit        Muxes := 1     
+	 321 Input      1 Bit        Muxes := 1     
+Module Draw_Waveform_D 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 6     
+	   2 Input     13 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
++---RAMs : 
+	              15K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 18    
+Module sram 
+Detailed RTL Component Info : 
++---Registers : 
+	                6 Bit    Registers := 1     
++---RAMs : 
+	            1350K Bit         RAMs := 1     
+Module draw_pic 
+Detailed RTL Component Info : 
++---Registers : 
+	               18 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+Module grid_select 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
++---Muxes : 
+	  18 Input      4 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 1     
+	  18 Input      1 Bit        Muxes := 1     
+Module dff_module__13 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff_module__12 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff_module__15 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff_module__14 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff_module__17 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff_module__16 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff_module__19 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff_module__18 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff_module__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff_module 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Draw_Grid_Select 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 8     
+	   4 Input      3 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+	   3 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 2     
+Module dff_module__3 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff_module__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff_module__5 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff_module__4 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff_module__7 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff_module__6 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff_module__9 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff_module__8 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff_module__11 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff_module__10 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module VGA_CONTROL 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module VGA_DISPLAY 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 4     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 43    
+	   4 Input      4 Bit        Muxes := 4     
+	   3 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "name1/clk0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "VGA_Red_1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "VGA_Green_1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3936] Found unconnected internal register 'temp_reg' and it is trimmed from '16' to '15' bits. [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/imports/new/VOICE_CAPTURER.v:45]
+INFO: [Synth 8-5545] ROM "i" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_2.v:497]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_2.v:497]
+DSP Report: Generating DSP VGA_Red_waveform13, operation Mode is: A*B.
+DSP Report: operator VGA_Red_waveform13 is absorbed into DSP VGA_Red_waveform13.
+DSP Report: operator VGA_Red_waveform13 is absorbed into DSP VGA_Red_waveform13.
+DSP Report: Generating DSP VGA_Red_waveform13, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator VGA_Red_waveform13 is absorbed into DSP VGA_Red_waveform13.
+DSP Report: operator VGA_Red_waveform13 is absorbed into DSP VGA_Red_waveform13.
+DSP Report: Generating DSP VGA_Red_waveform13, operation Mode is: A*B.
+DSP Report: operator VGA_Red_waveform13 is absorbed into DSP VGA_Red_waveform13.
+DSP Report: operator VGA_Red_waveform13 is absorbed into DSP VGA_Red_waveform13.
+DSP Report: Generating DSP VGA_Red_waveform13, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator VGA_Red_waveform13 is absorbed into DSP VGA_Red_waveform13.
+DSP Report: operator VGA_Red_waveform13 is absorbed into DSP VGA_Red_waveform13.
+DSP Report: Generating DSP VGA_Red_waveform13, operation Mode is: A*B.
+DSP Report: operator VGA_Red_waveform13 is absorbed into DSP VGA_Red_waveform13.
+DSP Report: operator VGA_Red_waveform13 is absorbed into DSP VGA_Red_waveform13.
+DSP Report: Generating DSP VGA_Red_waveform13, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator VGA_Red_waveform13 is absorbed into DSP VGA_Red_waveform13.
+DSP Report: operator VGA_Red_waveform13 is absorbed into DSP VGA_Red_waveform13.
+DSP Report: Generating DSP VGA_Red_waveform13, operation Mode is: A*B.
+DSP Report: operator VGA_Red_waveform13 is absorbed into DSP VGA_Red_waveform13.
+DSP Report: operator VGA_Red_waveform13 is absorbed into DSP VGA_Red_waveform13.
+DSP Report: Generating DSP VGA_Red_waveform13, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator VGA_Red_waveform13 is absorbed into DSP VGA_Red_waveform13.
+DSP Report: operator VGA_Red_waveform13 is absorbed into DSP VGA_Red_waveform13.
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_3.v:450]
+DSP Report: Generating DSP VGA_Green_waveform4, operation Mode is: A*B.
+DSP Report: operator VGA_Green_waveform4 is absorbed into DSP VGA_Green_waveform4.
+DSP Report: operator VGA_Green_waveform4 is absorbed into DSP VGA_Green_waveform4.
+DSP Report: Generating DSP VGA_Green_waveform4, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator VGA_Green_waveform4 is absorbed into DSP VGA_Green_waveform4.
+DSP Report: operator VGA_Green_waveform4 is absorbed into DSP VGA_Green_waveform4.
+INFO: [Synth 8-5545] ROM "VGA_Red_waveform" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "VGA_Green_waveform" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_E.v:494]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_E.v:494]
+DSP Report: Generating DSP VGA_Red_waveform03, operation Mode is: A*B.
+DSP Report: operator VGA_Red_waveform03 is absorbed into DSP VGA_Red_waveform03.
+DSP Report: operator VGA_Red_waveform03 is absorbed into DSP VGA_Red_waveform03.
+DSP Report: Generating DSP VGA_Red_waveform03, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator VGA_Red_waveform03 is absorbed into DSP VGA_Red_waveform03.
+DSP Report: operator VGA_Red_waveform03 is absorbed into DSP VGA_Red_waveform03.
+DSP Report: Generating DSP VGA_Red_waveform03, operation Mode is: A*B.
+DSP Report: operator VGA_Red_waveform03 is absorbed into DSP VGA_Red_waveform03.
+DSP Report: operator VGA_Red_waveform03 is absorbed into DSP VGA_Red_waveform03.
+DSP Report: Generating DSP VGA_Red_waveform03, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator VGA_Red_waveform03 is absorbed into DSP VGA_Red_waveform03.
+DSP Report: operator VGA_Red_waveform03 is absorbed into DSP VGA_Red_waveform03.
+DSP Report: Generating DSP VGA_Red_waveform03, operation Mode is: A*B.
+DSP Report: operator VGA_Red_waveform03 is absorbed into DSP VGA_Red_waveform03.
+DSP Report: operator VGA_Red_waveform03 is absorbed into DSP VGA_Red_waveform03.
+DSP Report: Generating DSP VGA_Red_waveform03, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator VGA_Red_waveform03 is absorbed into DSP VGA_Red_waveform03.
+DSP Report: operator VGA_Red_waveform03 is absorbed into DSP VGA_Red_waveform03.
+DSP Report: Generating DSP VGA_Red_waveform03, operation Mode is: A*B.
+DSP Report: operator VGA_Red_waveform03 is absorbed into DSP VGA_Red_waveform03.
+DSP Report: operator VGA_Red_waveform03 is absorbed into DSP VGA_Red_waveform03.
+DSP Report: Generating DSP VGA_Red_waveform03, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator VGA_Red_waveform03 is absorbed into DSP VGA_Red_waveform03.
+DSP Report: operator VGA_Red_waveform03 is absorbed into DSP VGA_Red_waveform03.
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_wave_C.v:452]
+DSP Report: Generating DSP VGA_Red_waveform3, operation Mode is: A*B.
+DSP Report: operator VGA_Red_waveform3 is absorbed into DSP VGA_Red_waveform3.
+DSP Report: operator VGA_Red_waveform3 is absorbed into DSP VGA_Red_waveform3.
+DSP Report: Generating DSP VGA_Red_waveform3, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator VGA_Red_waveform3 is absorbed into DSP VGA_Red_waveform3.
+DSP Report: operator VGA_Red_waveform3 is absorbed into DSP VGA_Red_waveform3.
+DSP Report: Generating DSP address_reg, operation Mode is: C+A*(B:0x280).
+DSP Report: register address_reg is absorbed into DSP address_reg.
+DSP Report: operator address0 is absorbed into DSP address_reg.
+DSP Report: operator address1 is absorbed into DSP address_reg.
+INFO: [Synth 8-3886] merging instance 'draw_wavei_1/B_reg[2]' (FDE) to 'draw_wavei_1/B_reg[3]'
+INFO: [Synth 8-3886] merging instance 'draw_wavei_1/R_reg[0]' (FDE) to 'draw_wavei_1/R_reg[1]'
+INFO: [Synth 8-3886] merging instance 'draw_wavei_1/R_reg[2]' (FDE) to 'draw_wavei_1/R_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (draw_wavei_1/\R_reg[3] )
+INFO: [Synth 8-3886] merging instance 'draw_wave_Ai_2/B_reg[2]' (FDE) to 'draw_wave_Ai_2/G_reg[2]'
+INFO: [Synth 8-3886] merging instance 'draw_wave_Ai_2/B_reg[3]' (FDE) to 'draw_wave_Ai_2/G_reg[1]'
+INFO: [Synth 8-3886] merging instance 'draw_wave_Ai_2/G_reg[2]' (FDE) to 'draw_wave_Ai_2/G_reg[3]'
+INFO: [Synth 8-3886] merging instance 'draw_wave_Ai_2/G_reg[3]' (FDE) to 'draw_wave_Ai_2/R_reg[2]'
+INFO: [Synth 8-3886] merging instance 'draw_wave_Ai_2/R_reg[0]' (FDE) to 'draw_wave_Ai_2/R_reg[1]'
+INFO: [Synth 8-3886] merging instance 'draw_wave_Ai_2/R_reg[2]' (FDE) to 'draw_wave_Ai_2/R_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (draw_wave_Ai_2/\R_reg[3] )
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'nolabel_line136i_5/SM_reg[0][11]/Q' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'nolabel_line136i_5/SM_reg[0][10]/Q' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'nolabel_line136i_5/SM_reg[0][9]/Q' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'nolabel_line136i_5/SM_reg[0][7]/Q' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'nolabel_line136i_5/SM_reg[0][6]/Q' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'nolabel_line136i_5/SM_reg[0][4]/Q' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'nolabel_line136i_5/SM_reg[0][1]/Q' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'nolabel_line136i_5/SM_reg[0][0]/Q' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+INFO: [Synth 8-3886] merging instance 'draw_grid1i_8/Bb_reg[2]' (FDE) to 'draw_grid1i_8/Bg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'draw_grid1i_8/Bg_reg[2]' (FDE) to 'draw_grid1i_8/Br_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (draw_grid1i_8/\Br_reg[2] )
+INFO: [Synth 8-3886] merging instance 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__13' (FDE) to 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__16'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__7' (FDE) to 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__16'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__1' (FDE) to 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__4'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__16' (FDE) to 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__15'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__10' (FDE) to 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__15'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__4' (FDE) to 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__3'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__15' (FDE) to 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__14'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__9' (FDE) to 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__14'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__3' (FDE) to 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__2'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__14' (FDE) to 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__12'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__8' (FDE) to 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__12'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__2' (FDE) to 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__0'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__12' (FDE) to 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__11'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__6' (FDE) to 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__11'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__0' (FDE) to 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__11' (FDE) to 'i_0/draw_pic/i_0/vram/memory_array_reg_mux_sel__5'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[5]' (LD) to 'i_0/draw_wave_3/fx_reg[6]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[6]' (LD) to 'i_0/draw_wave_3/fx_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[7]' (LD) to 'i_0/draw_wave_3/fx_reg[8]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[8]' (LD) to 'i_0/draw_wave_3/fx_reg[9]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[9]' (LD) to 'i_0/draw_wave_3/fx_reg[10]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[10]' (LD) to 'i_0/draw_wave_3/fx_reg[11]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[11]' (LD) to 'i_0/draw_wave_3/fx_reg[12]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[12]' (LD) to 'i_0/draw_wave_3/fx_reg[13]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[13]' (LD) to 'i_0/draw_wave_3/fx_reg[14]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[14]' (LD) to 'i_0/draw_wave_3/fx_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[15]' (LD) to 'i_0/draw_wave_3/fx_reg[16]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[16]' (LD) to 'i_0/draw_wave_3/fx_reg[17]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[17]' (LD) to 'i_0/draw_wave_3/fx_reg[18]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[18]' (LD) to 'i_0/draw_wave_3/fx_reg[19]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[19]' (LD) to 'i_0/draw_wave_3/fx_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[20]' (LD) to 'i_0/draw_wave_3/fx_reg[21]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[21]' (LD) to 'i_0/draw_wave_3/fx_reg[22]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[22]' (LD) to 'i_0/draw_wave_3/fx_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[23]' (LD) to 'i_0/draw_wave_3/fx_reg[24]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[24]' (LD) to 'i_0/draw_wave_3/fx_reg[25]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[25]' (LD) to 'i_0/draw_wave_3/fx_reg[26]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[26]' (LD) to 'i_0/draw_wave_3/fx_reg[27]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[27]' (LD) to 'i_0/draw_wave_3/fx_reg[28]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[28]' (LD) to 'i_0/draw_wave_3/fx_reg[29]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/fx_reg[29]' (LD) to 'i_0/draw_wave_3/fx_reg[30]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/times_reg[5]' (LD) to 'i_0/draw_wave_3/times_reg[6]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/times_reg[6]' (LD) to 'i_0/draw_wave_3/times_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/times_reg[7]' (LD) to 'i_0/draw_wave_3/times_reg[8]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/times_reg[8]' (LD) to 'i_0/draw_wave_3/times_reg[9]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_3/times_reg[9]' (LD) to 'i_0/draw_wave_3/times_reg[10]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/draw_wave_3/\times_reg[10] )
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[5]' (LD) to 'i_0/draw_wave_C/fx_reg[6]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[6]' (LD) to 'i_0/draw_wave_C/fx_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[7]' (LD) to 'i_0/draw_wave_C/fx_reg[8]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[8]' (LD) to 'i_0/draw_wave_C/fx_reg[9]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[9]' (LD) to 'i_0/draw_wave_C/fx_reg[10]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[10]' (LD) to 'i_0/draw_wave_C/fx_reg[11]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[11]' (LD) to 'i_0/draw_wave_C/fx_reg[12]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[12]' (LD) to 'i_0/draw_wave_C/fx_reg[13]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[13]' (LD) to 'i_0/draw_wave_C/fx_reg[14]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[14]' (LD) to 'i_0/draw_wave_C/fx_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[15]' (LD) to 'i_0/draw_wave_C/fx_reg[16]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[16]' (LD) to 'i_0/draw_wave_C/fx_reg[17]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[17]' (LD) to 'i_0/draw_wave_C/fx_reg[18]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[18]' (LD) to 'i_0/draw_wave_C/fx_reg[19]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[19]' (LD) to 'i_0/draw_wave_C/fx_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[20]' (LD) to 'i_0/draw_wave_C/fx_reg[21]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[21]' (LD) to 'i_0/draw_wave_C/fx_reg[22]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[22]' (LD) to 'i_0/draw_wave_C/fx_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[23]' (LD) to 'i_0/draw_wave_C/fx_reg[24]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[24]' (LD) to 'i_0/draw_wave_C/fx_reg[25]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[25]' (LD) to 'i_0/draw_wave_C/fx_reg[26]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[26]' (LD) to 'i_0/draw_wave_C/fx_reg[27]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[27]' (LD) to 'i_0/draw_wave_C/fx_reg[28]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[28]' (LD) to 'i_0/draw_wave_C/fx_reg[29]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/fx_reg[29]' (LD) to 'i_0/draw_wave_C/fx_reg[30]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/times_reg[5]' (LD) to 'i_0/draw_wave_C/times_reg[6]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/times_reg[6]' (LD) to 'i_0/draw_wave_C/times_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/times_reg[7]' (LD) to 'i_0/draw_wave_C/times_reg[8]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/times_reg[8]' (LD) to 'i_0/draw_wave_C/times_reg[9]'
+INFO: [Synth 8-3886] merging instance 'i_0/draw_wave_C/times_reg[9]' (LD) to 'i_0/draw_wave_C/times_reg[10]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/draw_wave_C/\times_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/draw_grid_select/\counter_reg[3] )
+INFO: [Synth 8-3886] merging instance 'i_0/vol_f/two_reg[0]' (FDRE) to 'i_0/vol_f/two_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/vol_f/two_reg[1]' (FDRE) to 'i_0/vol_f/two_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/vol_f/\two_reg[2] )
+INFO: [Synth 8-3886] merging instance 'i_0/vol_f/two_reg[3]' (FDRE) to 'i_0/vol_f/two_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/vol_f/two_reg[4]' (FDRE) to 'i_0/vol_f/two_reg[5]'
+INFO: [Synth 8-3886] merging instance 'i_0/vol_f/two_reg[6]' (FDSE) to 'i_0/vol_f/two_reg[7]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_0/vol_f/\two_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_0/vol_f/\one_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (temp_reg[14]) is unused and will be removed from module VOICE_CAPTURER.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[13]) is unused and will be removed from module VOICE_CAPTURER.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[12]) is unused and will be removed from module VOICE_CAPTURER.
+WARNING: [Synth 8-3332] Sequential element (two_reg[7]) is unused and will be removed from module volume_indicator.
+WARNING: [Synth 8-3332] Sequential element (two_reg[2]) is unused and will be removed from module volume_indicator.
+WARNING: [Synth 8-3332] Sequential element (one_reg[7]) is unused and will be removed from module volume_indicator.
+WARNING: [Synth 8-3332] Sequential element (times_reg[10]) is unused and will be removed from module Draw_Waveform_3.
+WARNING: [Synth 8-3332] Sequential element (times_reg[10]) is unused and will be removed from module Draw_Waveform_C.
+WARNING: [Synth 8-3332] Sequential element (center/dff_one/Q_reg) is unused and will be removed from module Draw_Grid_Select.
+WARNING: [Synth 8-3332] Sequential element (center/dff_two/Q_reg) is unused and will be removed from module Draw_Grid_Select.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[3]) is unused and will be removed from module Draw_Grid_Select.
+INFO: [Synth 8-3886] merging instance 'i_0/background_select_1/Bg_reg[1]' (FDE) to 'i_0/background_select_1/Br_reg[2]'
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'nolabel_line136i_5/SM_reg[0][8]/Q' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'VCC' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'nolabel_line136i_5/SM_reg[0][5]/Q' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'VCC' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'nolabel_line136i_5/SM_reg[0][3]/Q' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'VCC' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'nolabel_line136i_5/SM_reg[0][2]/Q' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'VCC' [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.srcs/sources_1/new/draw_freeze_waveform.v:52]
+WARNING: [Synth 8-3332] Sequential element (times_reg[4]) is unused and will be removed from module Draw_Waveform_3.
+WARNING: [Synth 8-3332] Sequential element (times_reg[3]) is unused and will be removed from module Draw_Waveform_3.
+WARNING: [Synth 8-3332] Sequential element (times_reg[2]) is unused and will be removed from module Draw_Waveform_3.
+WARNING: [Synth 8-3332] Sequential element (times_reg[1]) is unused and will be removed from module Draw_Waveform_3.
+WARNING: [Synth 8-3332] Sequential element (times_reg[0]) is unused and will be removed from module Draw_Waveform_3.
+WARNING: [Synth 8-3332] Sequential element (times_reg[4]) is unused and will be removed from module Draw_Waveform_C.
+WARNING: [Synth 8-3332] Sequential element (times_reg[3]) is unused and will be removed from module Draw_Waveform_C.
+WARNING: [Synth 8-3332] Sequential element (times_reg[2]) is unused and will be removed from module Draw_Waveform_C.
+WARNING: [Synth 8-3332] Sequential element (times_reg[1]) is unused and will be removed from module Draw_Waveform_C.
+WARNING: [Synth 8-3332] Sequential element (times_reg[0]) is unused and will be removed from module Draw_Waveform_C.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:47 ; elapsed = 00:01:57 . Memory (MB): peak = 1068.246 ; gain = 810.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++----------------+------------------+---------------+----------------+
+|Module Name     | RTL Object       | Depth x Width | Implemented As | 
++----------------+------------------+---------------+----------------+
+|draw_pic        | p_0_out          | 64x12         | LUT            | 
+|Draw_Waveform_3 | fx               | 512x32        | LUT            | 
+|Draw_Waveform_C | fx               | 512x32        | LUT            | 
+|draw_pic        | p_0_out          | 64x12         | LUT            | 
+|Voice_Scope_TOP | grid_select_1/Br | 32x4          | LUT            | 
+|Voice_Scope_TOP | grid_select_1/Bg | 32x4          | LUT            | 
+|Voice_Scope_TOP | grid_select_1/Bb | 32x4          | LUT            | 
++----------------+------------------+---------------+----------------+
+
+
+Block RAM: Preliminary Mapping  Report (see note below)
++------------+------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object       | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|sram:       | memory_array_reg | 256 K x 6(NO_CHANGE)   | W | R |                        |   |   | Port A           | 0      | 48     | 
++------------+------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The tale above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++----------------+------------------------+-----------+----------------------+------------------+
+|Module Name     | RTL Object             | Inference | Size (Depth x Width) | Primitives       | 
++----------------+------------------------+-----------+----------------------+------------------+
+|Voice_Scope_TOP | store_reg              | Implied   | 2 K x 12             | RAM64M x 160     | 
+|Voice_Scope_TOP | Sample_Memory_reg      | Implied   | 2 K x 10             | RAM256X1S x 60   | 
+|Voice_Scope_TOP | temp_Sample_Memory_reg | Implied   | 2 K x 12             | RAM64M x 80      | 
+|i_0/draw_wave_4 | SM_reg                 | Implied   | 2 K x 10             | RAM64M x 160     | 
+|i_0/draw_wave_4 | store_reg              | Implied   | 2 K x 12             | RAM64M x 80      | 
+|i_0/draw_wave_D | SM_reg                 | Implied   | 2 K x 10             | RAM64M x 160     | 
+|i_0/draw_wave_D | store_reg              | Implied   | 2 K x 12             | RAM64M x 80      | 
++----------------+------------------------+-----------+----------------------+------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping  Report (see note below)
++----------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name     | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++----------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Draw_Waveform_2 | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform_2 | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform_2 | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform_2 | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform_2 | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform_2 | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform_2 | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform_2 | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform_3 | A*B            | 18     | 12     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform_3 | (PCIN>>17)+A*B | 16     | 12     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform_E | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform_E | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform_E | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform_E | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform_E | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform_E | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform_E | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform_E | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform_C | A*B            | 18     | 12     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform_C | (PCIN>>17)+A*B | 16     | 12     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|draw_pic        | C+A*(B:0x280)  | 12     | 10     | 12     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 1    | 
++----------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance i_0/draw_pic/i_0/vram/memory_array_reg_1_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/draw_pic/i_0/vram/memory_array_reg_1_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/draw_pic/i_0/vram/memory_array_reg_1_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/draw_pic/i_0/vram/memory_array_reg_1_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/draw_pic/i_0/vram/memory_array_reg_1_4 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/draw_pic/i_0/vram/memory_array_reg_1_5 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/draw_pic/i_0/vram/memory_array_reg_3_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/draw_pic/i_0/vram/memory_array_reg_3_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/draw_pic/i_0/vram/memory_array_reg_3_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/draw_pic/i_0/vram/memory_array_reg_3_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/draw_pic/i_0/vram/memory_array_reg_3_4 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/draw_pic/i_0/vram/memory_array_reg_3_5 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/draw_pic/i_0/vram/memory_array_reg_5_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/draw_pic/i_0/vram/memory_array_reg_5_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/draw_pic/i_0/vram/memory_array_reg_5_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/draw_pic/i_0/vram/memory_array_reg_5_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/draw_pic/i_0/vram/memory_array_reg_5_4 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/draw_pic/i_0/vram/memory_array_reg_5_5 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/draw_pic/i_0/vram/memory_array_reg_7_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/draw_pic/i_0/vram/memory_array_reg_7_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/draw_pic/i_0/vram/memory_array_reg_7_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/draw_pic/i_0/vram/memory_array_reg_7_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/draw_pic/i_0/vram/memory_array_reg_7_4 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/draw_pic/i_0/vram/memory_array_reg_7_5 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++------+--------------------------+------------+----------+
+|      |RTL Partition             |Replication |Instances |
++------+--------------------------+------------+----------+
+|1     |clk_divider               |           1|       145|
+|2     |Draw_Waveform__GC0        |           1|      2958|
+|3     |Draw_Waveform_A__GC0      |           1|      2780|
+|4     |draw_freeze_waveform__GB0 |           1|     17431|
+|5     |case__236__GD             |           1|     12791|
+|6     |draw_freeze_waveform__GB2 |           1|      9340|
+|7     |draw_freeze_waveform__GB3 |           1|      3428|
+|8     |Draw_Background__GC0      |           1|       106|
+|9     |Draw_Background1__GC0     |           1|       384|
+|10    |Voice_Scope_TOP__GC0      |           1|      8038|
+|11    |clk_divider__1            |           1|       130|
+|12    |clk_divider__2            |           1|       141|
+|13    |clk_divider__3            |           1|       131|
+|14    |clk_divider__4            |           1|       144|
+|15    |clk_divider__5            |           4|        95|
+|16    |clk_divider__6            |           1|        98|
+|17    |clk_divider__7            |           1|        99|
++------+--------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:59 ; elapsed = 00:02:11 . Memory (MB): peak = 1068.246 ; gain = 810.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:07 ; elapsed = 00:02:19 . Memory (MB): peak = 1068.246 ; gain = 810.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping  Report
++------------+------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object       | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|sram:       | memory_array_reg | 256 K x 6(NO_CHANGE)   | W | R |                        |   |   | Port A           | 0      | 48     | 
++------------+------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+
+Distributed RAM: Final Mapping  Report
++----------------+------------------------+-----------+----------------------+------------------+
+|Module Name     | RTL Object             | Inference | Size (Depth x Width) | Primitives       | 
++----------------+------------------------+-----------+----------------------+------------------+
+|Voice_Scope_TOP | store_reg              | Implied   | 2 K x 12             | RAM64M x 160     | 
+|Voice_Scope_TOP | Sample_Memory_reg      | Implied   | 2 K x 10             | RAM256X1S x 60   | 
+|Voice_Scope_TOP | temp_Sample_Memory_reg | Implied   | 2 K x 12             | RAM64M x 80      | 
+|i_0/draw_wave_4 | SM_reg                 | Implied   | 2 K x 10             | RAM64M x 160     | 
+|i_0/draw_wave_4 | store_reg              | Implied   | 2 K x 12             | RAM64M x 80      | 
+|i_0/draw_wave_D | SM_reg                 | Implied   | 2 K x 10             | RAM64M x 160     | 
+|i_0/draw_wave_D | store_reg              | Implied   | 2 K x 12             | RAM64M x 80      | 
++----------------+------------------------+-----------+----------------------+------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------------------+------------+----------+
+|      |RTL Partition             |Replication |Instances |
++------+--------------------------+------------+----------+
+|1     |clk_divider               |           1|       145|
+|2     |Draw_Waveform__GC0        |           1|      2958|
+|3     |Draw_Waveform_A__GC0      |           1|      2780|
+|4     |draw_freeze_waveform__GB0 |           1|     17431|
+|5     |case__236__GD             |           1|     12791|
+|6     |draw_freeze_waveform__GB2 |           1|      9340|
+|7     |draw_freeze_waveform__GB3 |           1|      3428|
+|8     |Draw_Background__GC0      |           1|       106|
+|9     |Draw_Background1__GC0     |           1|       384|
+|10    |Voice_Scope_TOP__GC0      |           1|      7934|
+|11    |clk_divider__1            |           1|       130|
+|12    |clk_divider__2            |           1|       141|
+|13    |clk_divider__3            |           1|       131|
+|14    |clk_divider__4            |           1|       144|
+|15    |clk_divider__5            |           4|        95|
+|16    |clk_divider__6            |           1|        98|
+|17    |clk_divider__7            |           1|        99|
++------+--------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'draw_wave_3/fx_reg[30]' (LD) to 'draw_wave_3/fx_reg[31]'
+INFO: [Synth 8-3886] merging instance 'draw_wave_C/fx_reg[30]' (LD) to 'draw_wave_C/fx_reg[31]'
+INFO: [Synth 8-4480] The timing for the instance draw_pic/vram/memory_array_reg_1_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance draw_pic/vram/memory_array_reg_1_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance draw_pic/vram/memory_array_reg_1_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance draw_pic/vram/memory_array_reg_1_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance draw_pic/vram/memory_array_reg_1_4 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance draw_pic/vram/memory_array_reg_1_5 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance draw_pic/vram/memory_array_reg_3_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance draw_pic/vram/memory_array_reg_3_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance draw_pic/vram/memory_array_reg_3_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance draw_pic/vram/memory_array_reg_3_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance draw_pic/vram/memory_array_reg_3_4 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance draw_pic/vram/memory_array_reg_3_5 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance draw_pic/vram/memory_array_reg_5_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance draw_pic/vram/memory_array_reg_5_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance draw_pic/vram/memory_array_reg_5_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance draw_pic/vram/memory_array_reg_5_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance draw_pic/vram/memory_array_reg_5_4 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance draw_pic/vram/memory_array_reg_5_5 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance draw_pic/vram/memory_array_reg_7_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance draw_pic/vram/memory_array_reg_7_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance draw_pic/vram/memory_array_reg_7_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance draw_pic/vram/memory_array_reg_7_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance draw_pic/vram/memory_array_reg_7_4 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance draw_pic/vram/memory_array_reg_7_5 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:23 ; elapsed = 00:02:36 . Memory (MB): peak = 1110.715 ; gain = 852.563
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:28 ; elapsed = 00:02:41 . Memory (MB): peak = 1110.715 ; gain = 852.563
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:29 ; elapsed = 00:02:41 . Memory (MB): peak = 1110.715 ; gain = 852.563
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:31 ; elapsed = 00:02:43 . Memory (MB): peak = 1110.715 ; gain = 852.563
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:31 ; elapsed = 00:02:43 . Memory (MB): peak = 1110.715 ; gain = 852.563
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:32 ; elapsed = 00:02:44 . Memory (MB): peak = 1110.715 ; gain = 852.563
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:32 ; elapsed = 00:02:44 . Memory (MB): peak = 1110.715 ; gain = 852.563
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |BUFG        |    12|
+|2     |CARRY4      |   536|
+|3     |DSP48E1     |    16|
+|4     |DSP48E1_1   |     1|
+|5     |LUT1        |   232|
+|6     |LUT2        |   914|
+|7     |LUT3        |   721|
+|8     |LUT4        |  1033|
+|9     |LUT5        |   747|
+|10    |LUT6        |  9842|
+|11    |MMCME2_ADV  |     2|
+|12    |MUXF7       |  3597|
+|13    |MUXF8       |  1624|
+|14    |RAM256X1S   |    55|
+|15    |RAM64M      |   640|
+|16    |RAMB36E1    |    12|
+|17    |RAMB36E1_1  |     1|
+|18    |RAMB36E1_10 |     1|
+|19    |RAMB36E1_11 |     1|
+|20    |RAMB36E1_12 |     1|
+|21    |RAMB36E1_13 |     1|
+|22    |RAMB36E1_14 |     1|
+|23    |RAMB36E1_15 |     1|
+|24    |RAMB36E1_16 |     1|
+|25    |RAMB36E1_17 |     1|
+|26    |RAMB36E1_18 |     1|
+|27    |RAMB36E1_19 |     1|
+|28    |RAMB36E1_2  |     1|
+|29    |RAMB36E1_20 |     1|
+|30    |RAMB36E1_21 |     1|
+|31    |RAMB36E1_22 |     1|
+|32    |RAMB36E1_23 |     1|
+|33    |RAMB36E1_24 |     1|
+|34    |RAMB36E1_25 |     1|
+|35    |RAMB36E1_26 |     1|
+|36    |RAMB36E1_27 |     1|
+|37    |RAMB36E1_28 |     1|
+|38    |RAMB36E1_29 |     1|
+|39    |RAMB36E1_3  |     1|
+|40    |RAMB36E1_30 |     1|
+|41    |RAMB36E1_31 |     6|
+|42    |RAMB36E1_4  |     1|
+|43    |RAMB36E1_5  |     1|
+|44    |RAMB36E1_6  |     1|
+|45    |RAMB36E1_7  |     1|
+|46    |RAMB36E1_8  |     1|
+|47    |RAMB36E1_9  |     1|
+|48    |FDRE        | 14288|
+|49    |FDSE        |    18|
+|50    |LD          |    12|
+|51    |IBUF        |    20|
+|52    |OBUF        |    42|
++------+------------+------+
+
+Report Instance Areas: 
++------+----------------------+---------------------+------+
+|      |Instance              |Module               |Cells |
++------+----------------------+---------------------+------+
+|1     |top                   |                     | 34400|
+|2     |  background_select_1 |background_select    |    35|
+|3     |  clock_divider_1     |clk_divider          |    84|
+|4     |    name1             |clk_div_45           |    84|
+|5     |  clock_divider_11    |clk_divider_0        |    74|
+|6     |    name1             |clk_div_44           |    74|
+|7     |  clock_divider_2     |clk_divider_1        |    80|
+|8     |    name1             |clk_div_43           |    80|
+|9     |  clock_divider_4     |clk_divider_2        |    83|
+|10    |    name1             |clk_div_42           |    83|
+|11    |  clock_divider_5     |clk_divider_3        |    80|
+|12    |    name1             |clk_div_41           |    80|
+|13    |  clock_divider_6     |clk_divider_4        |    83|
+|14    |    name1             |clk_div_40           |    83|
+|15    |  clock_divider_8     |clk_divider_5        |    70|
+|16    |    name1             |clk_div_39           |    70|
+|17    |  clock_divider_9     |clk_divider_6        |    73|
+|18    |    name1             |clk_div_38           |    73|
+|19    |  display             |VGA_DISPLAY          |  2059|
+|20    |    VGA_CLK_108M      |CLK_108M_22          |     3|
+|21    |    VGA_CONTROL       |VGA_CONTROL          |  1895|
+|22    |    center            |fast_sp_module_23    |     3|
+|23    |      dff_one         |dff_module_36        |     2|
+|24    |      dff_two         |dff_module_37        |     1|
+|25    |    down              |fast_sp_module_24    |     4|
+|26    |      dff_one         |dff_module_34        |     3|
+|27    |      dff_two         |dff_module_35        |     1|
+|28    |    left              |fast_sp_module_25    |     6|
+|29    |      dff_one         |dff_module_32        |     5|
+|30    |      dff_two         |dff_module_33        |     1|
+|31    |    right             |fast_sp_module_26    |     7|
+|32    |      dff_one         |dff_module_30        |     5|
+|33    |      dff_two         |dff_module_31        |     2|
+|34    |    up                |fast_sp_module_27    |     4|
+|35    |      dff_one         |dff_module_28        |     3|
+|36    |      dff_two         |dff_module_29        |     1|
+|37    |  draw_grid1          |Draw_Background1     |   150|
+|38    |    name1             |clk_divider_20       |    70|
+|39    |      name1           |clk_div_21           |    69|
+|40    |  draw_grid_select    |Draw_Grid_Select     |    62|
+|41    |    down              |fast_sp_module       |     4|
+|42    |      dff_one         |dff_module_18        |     2|
+|43    |      dff_two         |dff_module_19        |     2|
+|44    |    left              |fast_sp_module_10    |     6|
+|45    |      dff_one         |dff_module_16        |     2|
+|46    |      dff_two         |dff_module_17        |     4|
+|47    |    right             |fast_sp_module_11    |     7|
+|48    |      dff_one         |dff_module_14        |     6|
+|49    |      dff_two         |dff_module_15        |     1|
+|50    |    up                |fast_sp_module_12    |     3|
+|51    |      dff_one         |dff_module           |     2|
+|52    |      dff_two         |dff_module_13        |     1|
+|53    |  draw_pic            |draw_pic             |   100|
+|54    |    VGA_CLK_108M      |CLK_108M             |     3|
+|55    |    vram              |sram                 |    72|
+|56    |  draw_wave           |Draw_Waveform        |   619|
+|57    |    name1             |clk_divider_8        |    70|
+|58    |      name1           |clk_div_9            |    69|
+|59    |  draw_wave_2         |Draw_Waveform_2      |    96|
+|60    |  draw_wave_3         |Draw_Waveform_3      |    67|
+|61    |  draw_wave_4         |Draw_Waveform_4      |   510|
+|62    |  draw_wave_A         |Draw_Waveform_A      |   764|
+|63    |    name1             |clk_divider_7        |    70|
+|64    |      name1           |clk_div              |    69|
+|65    |  draw_wave_C         |Draw_Waveform_C      |    71|
+|66    |  draw_wave_D         |Draw_Waveform_D      |   690|
+|67    |  draw_wave_E         |Draw_Waveform_E      |   285|
+|68    |  grid_select_1       |grid_select          |    46|
+|69    |  nolabel_line136     |draw_freeze_waveform | 27152|
+|70    |  testwave            |TestWave_Gen         |    21|
+|71    |  voice_capture       |VOICE_CAPTURER       |   348|
+|72    |  vol_f               |volume_indicator     |   461|
+|73    |  wave_color_select_1 |wave_color_select    |    51|
++------+----------------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:32 ; elapsed = 00:02:44 . Memory (MB): peak = 1110.715 ; gain = 852.563
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 36 critical warnings and 29 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:11 ; elapsed = 00:02:32 . Memory (MB): peak = 1110.715 ; gain = 530.656
+Synthesis Optimization Complete : Time (s): cpu = 00:02:32 ; elapsed = 00:02:44 . Memory (MB): peak = 1110.715 ; gain = 852.563
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 6551 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 707 instances were transformed.
+  LD => LDCE: 12 instances
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 55 instances
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 640 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+401 Infos, 243 Warnings, 36 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:40 ; elapsed = 00:02:52 . Memory (MB): peak = 1110.715 ; gain = 865.570
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/wangh/OneDrive/Desktop/project_X.xpr/project_X5.xpr/project_XX1.xpr/project_1/project_1.runs/synth_1/Voice_Scope_TOP.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Voice_Scope_TOP_utilization_synth.rpt -pb Voice_Scope_TOP_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.308 . Memory (MB): peak = 1110.715 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Nov  3 23:09:10 2018...
